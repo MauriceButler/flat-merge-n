@@ -1,0 +1,25 @@
+{
+  "name": "flat-merge-n",
+  "version": "1.0.0",
+  "description": "A simple shallow merge utility. Takes n values, returns the merged result.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MauriceButler/flat-merge-n.git"
+  },
+  "author": "Maurice Butler <maurice.butler@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MauriceButler/flat-merge-n/issues"
+  },
+  "homepage": "https://github.com/MauriceButler/flat-merge-n",
+  "devDependencies": {
+    "tape": "^3.4.0"
+  },
+  "dependencies": {
+    "flat-merge": "^1.0.0"
+  }
+}
