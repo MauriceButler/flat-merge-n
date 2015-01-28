@@ -21,5 +21,15 @@
   },
   "dependencies": {
     "flat-merge": "^1.0.0"
-  }
+  },
+  "keywords": [
+    "merge",
+    "flat",
+    "shallow",
+    "many",
+    "manny",
+    "multiple",
+    "clone",
+    "n"
+  ]
 }
