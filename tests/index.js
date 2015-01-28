@@ -11,6 +11,15 @@ test('standard', function(t){
     t.deepEqual(flatMergeN(a, b, c), {a: 1, b: 2, c: 3});
 });
 
+test('only 1 argument clones', function(t){
+    t.plan(2);
+
+    var a = {a: 1};
+
+    t.deepEqual(flatMergeN(a), {a: 1});
+    t.notEqual(flatMergeN(a), a);
+});
+
 test('override', function(t){
     t.plan(1);
 
