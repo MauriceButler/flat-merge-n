@@ -28,7 +28,7 @@ var c = {
         beep: 'boop'
     };
 
-var result = merge(a,b);
+var result = merge(a,b,c);
 
 ->
 
