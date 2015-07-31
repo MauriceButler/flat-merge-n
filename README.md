@@ -10,7 +10,7 @@ A simple shallow merge utility. Takes n values, returns the merged result.
 # Usage
 
 ```javascript
-var merge = require('flat-merge');
+var merge = require('flat-merge-n');
 
 var a = {
         foo: 'stuff',
